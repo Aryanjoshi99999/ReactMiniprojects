@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: poppins, sans-serif;
+  width: 100vw;
+}
+
+/* #root {
+  width: 100vw;
+} */
+
+nav {
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  height: 15vh;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+
+.Navbar-logo {
+  padding-left: 40px;
+  max-width: 170px;
+}
+
+section {
+  padding: 20px;
+}
+
+.cards--list {
+  margin-top: 200px;
+  height: 70vh;
+  width: 100vw;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+  flex-direction: row;
+}
+
+.card {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.card--img {
+  height: 300px;
+  width: 220px;
+  border-radius: 10px;
+}
+
+.card--title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card--stats {
+  display: flex;
+}
+
+.card--rating {
+  font-weight: 500;
+}
+
+.gray {
+  font-weight: 400;
+  color: gray;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.card--star {
+  height: 17px;
+}
+
+.card--badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}

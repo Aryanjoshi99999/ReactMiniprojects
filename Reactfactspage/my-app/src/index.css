@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background-color: #2d2e36;
+}
+
+.Navbar-img {
+  width: 100px;
+  height: 100px;
+}
+
+nav {
+  display: flex;
+  align-item: center;
+  background-color: #21222a;
+  padding: 10px 20px;
+}
+
+.Navbar-heading {
+  margin: 10px 10px;
+  margin-right: auto;
+  font-size: 80px;
+  color: #61dafb;
+  font-weight: 700;
+}
+
+.Navbar-pro {
+  color: #deefb8;
+  font-size: 50px;
+  margin: auto 10px;
+}
+
+.Main-sec {
+  padding: 57px 27px;
+  color: white;
+}
+
+.Main-heading {
+  font-size: 70px;
+}
+
+.Main-list > li {
+  font-size: 25px;
+  padding-block: 10px;
+}
+
+.Main-list > li::marker {
+  font-size: 40px;
+  color: #61dafb;
+}
